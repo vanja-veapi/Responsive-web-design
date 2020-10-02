@@ -278,10 +278,7 @@ footer
     height: 100px;
     background-color: #461d0d;
 }
-i
-{
-    transition: 0.3s;
-}
+
 footer i:hover
 {
     color: var(--main-color) !important;
@@ -302,6 +299,10 @@ footer .h6, footer p
 {
     padding-left: 15px !important;
     padding-right: 15px !important;
+}
+#about a:hover
+{
+    color: #0489f5 !important;
 }
 #ikonice
 {
