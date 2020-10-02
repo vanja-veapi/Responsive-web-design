@@ -26,6 +26,16 @@ li
 {
     list-style-type: none;
 }
+.row
+{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    flex-wrap: nowrap;
+}
+#moving .row, footer .row
+{
+    flex-wrap: wrap !important;
+}
 a:hover
 {
     text-decoration: none;
@@ -268,6 +278,14 @@ footer
     height: 100px;
     background-color: #461d0d;
 }
+i
+{
+    transition: 0.3s;
+}
+footer i:hover
+{
+    color: var(--main-color) !important;
+}
 a.text-primary
 {
     color: #0489f5 !important;
@@ -352,7 +370,7 @@ textarea
     }
     iframe
     {
-        widows: 95%;
+        width: 95%;
         height: 50%;
     }
 }
