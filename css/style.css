@@ -294,6 +294,10 @@ footer .h6, footer p
 {
     margin-bottom: 0;
 }
+#about .row
+{
+    flex-wrap: wrap !important;
+}
 @media screen and (max-width: 992px)
 {
     .left-block
