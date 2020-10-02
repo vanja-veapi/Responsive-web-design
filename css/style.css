@@ -298,6 +298,15 @@ footer .h6, footer p
 {
     flex-wrap: wrap !important;
 }
+#about.container-fluid
+{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+#ikonice
+{
+    font-size: 30px;
+}
 @media screen and (max-width: 992px)
 {
     .left-block
